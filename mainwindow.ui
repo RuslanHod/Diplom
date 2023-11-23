@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1090</width>
+    <height>730</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>DProject</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QPushButton" name="WriteDataOnCard">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>660</y>
+      <width>195</width>
+      <height>35</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Записать на метку</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>400</y>
+      <width>120</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Ввод описания: </string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="tagID">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>380</y>
+      <width>195</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>350</y>
+      <width>181</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Ввод инвентарного номера:</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ReadDataOnCard">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>10</y>
+      <width>95</width>
+      <height>35</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Считать данные  
+с метки</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="tagAdd">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>610</y>
+      <width>95</width>
+      <height>35</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Добавить
+ в базу данных</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="tagRem">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>610</y>
+      <width>95</width>
+      <height>35</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Удалить
+ из базы данных</string>
+    </property>
+   </widget>
+   <widget class="QTableView" name="tagView">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>50</y>
+      <width>840</width>
+      <height>595</height>
+     </rect>
+    </property>
+    <property name="sortingEnabled">
+     <bool>false</bool>
+    </property>
+    <attribute name="horizontalHeaderMinimumSectionSize">
+     <number>395</number>
+    </attribute>
+    <attribute name="horizontalHeaderDefaultSectionSize">
+     <number>395</number>
+    </attribute>
+    <attribute name="horizontalHeaderHighlightSections">
+     <bool>false</bool>
+    </attribute>
+    <attribute name="verticalHeaderMinimumSectionSize">
+     <number>70</number>
+    </attribute>
+    <attribute name="verticalHeaderDefaultSectionSize">
+     <number>70</number>
+    </attribute>
+    <attribute name="verticalHeaderHighlightSections">
+     <bool>false</bool>
+    </attribute>
+   </widget>
+   <widget class="QTextEdit" name="tagCom">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>425</y>
+      <width>195</width>
+      <height>180</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="DevComboBox">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>10</y>
+      <width>95</width>
+      <height>35</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="DevDis">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>50</y>
+      <width>95</width>
+      <height>35</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Отсоединиться 
+ от устройства</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="DevCon">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>50</y>
+      <width>95</width>
+      <height>35</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Соединиться 
+ с устройством</string>
+    </property>
+   </widget>
+   <widget class="QTextBrowser" name="DevTagBrowser">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>90</y>
+      <width>195</width>
+      <height>255</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>610</x>
+      <y>20</y>
+      <width>70</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>База Данных </string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ExpTagTab">
+    <property name="geometry">
+     <rect>
+      <x>550</x>
+      <y>660</y>
+      <width>195</width>
+      <height>35</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Экспорт базы данных в CSV файл</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1090</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
